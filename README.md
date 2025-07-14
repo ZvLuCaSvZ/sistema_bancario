@@ -1,30 +1,30 @@
-# DIO (Digital Innovation One) - Santander 2025 - Back-End com Python
-
 # Desafio de Projeto - Sistema Bancário em Python
 
-## Objetivo Geral:
+## DIO (Digital Innovation One) - Santander 2025 - Back-End com Python
+
+### Objetivo Geral:
 
 Criar um sistema bancário com as operações: sacar, depositar e visualizar extrato.
 
-## Desafio:
+### Desafio:
 
 Fomos contratados por um grande banco para desenvolver o seu novo sistema. Esse banco deseja modernizar suas operações e para isso escolheu a linguagem Python. Para a primeira versão do sistema devemos implementar apenas 3 operações: depósito, saque e extrato.
 
-## Operação de depósito:
+### Operação de depósito:
 
 Deve ser possível depositar valores positivos para a minha conta bancária. A v1 do projeto trabalha apenas com 1 usuário, dessa forma não precisamos nos preocupar em identificar qual é o número da agência e conta bancária. Todos os depósitos devem ser armazenados em uma variável e exibidos na operação de extrato.
 
-## Operação de saque:
+### Operação de saque:
 
 O sistema deve permitir realizar 3 saques diários com limite máximo de R$ 500,00 por saque. Caso o usuário não tenha saldo em conta, o sistema deve exibir uma mensagem informando que não será possível sacar o dinheiro por falta de saldo. Todos os saques devem ser armazenados em uma variável e exibidos na operação de extrato.
 
-## Operação de extrato:
+### Operação de extrato:
 
 Essa operação deve listar todos os depósitos e saques realizados na conta. No fim da listagem deve ser exibido o saldo atual da conta.
 Os valores devem ser exibidos utilizando o formato R$ xxx.xx, exemplo:
 1500.45 = R$ 1500.45.
 
-## 📌 Funcionalidades:
+### 📌 Funcionalidades:
 
 - 💰 Depósito com validação de entrada;
 - 🏦 Saque com limite de valor e número de operações diárias;
@@ -32,12 +32,12 @@ Os valores devem ser exibidos utilizando o formato R$ xxx.xx, exemplo:
 - 🔒 Reset automático do limite de saque a cada novo dia;
 - 🧼 Limpeza automática da tela após cada operação.
 
-## 🛠️ Tecnologias Utilizadas:
+### 🛠️ Tecnologias Utilizadas:
 
 - Python 3
 - Módulos padrão: `datetime`, `time`, `os`
 
-## ▶️ Como Executar:
+### ▶️ Como Executar:
 
 1. Clone o repositório:
    ```bash
@@ -45,14 +45,14 @@ Os valores devem ser exibidos utilizando o formato R$ xxx.xx, exemplo:
    ```
 2. Acesse a pasta do projeto:
    ```bash
-   cd sistema-bancario
+   cd sistema_bancario
    ```
 3. Execute o script:
    ```bash
    python sistema_bancario.py
    ```
 
-## Estrutura do Projeto:
+### Estrutura do Projeto:
 
 ```sistema-bancario/
 │
@@ -61,21 +61,21 @@ Os valores devem ser exibidos utilizando o formato R$ xxx.xx, exemplo:
 └── README.md
 ```
 
-## Melhorias Futuras:
+### Melhorias Futuras:
 
 ✅ Armazenamento dos dados em arquivos
 
 ✅ POO (Programação Orientada a Objetos)
 
-## Autor:
+### Autor:
 
 - Desenvolvido por: Lucas Semião Marques.
 - GitHub: [ZvLuCaSvZ](https://github.com/ZvLuCaSvZ)
 
-## Licença:
+### Licença:
 
 Este projeto é de código aberto e pode ser utilizado, modificado e distribuído livremente, desde que respeitadas as condições da licença MIT.
 
-## Contribuições:
+### Contribuições:
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests para melhorias e correções.
