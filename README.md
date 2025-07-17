@@ -49,16 +49,32 @@ Os valores devem ser exibidos utilizando o formato R$ xxx.xx, exemplo:
    ```
 3. Execute o script:
    ```bash
-   python sistema_bancario.py
+   python main.py
    ```
 
 ### Estrutura do Projeto:
 
 ```sistema-bancario/
+sistema_bancario/
+├── bank/
+│ ├── init.py
+│ ├── account.py                    # Contain the Account class
+│ ├── menu.pyt                      # Contains the menu function
 │
-├── .gitignore                 # Arquivo para ignorar arquivos desnecessários no Git
-├── sistema_bancário.py        # Arquivo principal com o menu
-└── README.md
+├── services/
+│ ├── init.py
+│ ├── bank_statement.py             # Contains the bank statement function
+│ ├── transactions.py               # Contains the transaction functions (deposit, withdraw)
+│
+├── utils/
+│ ├── init.py
+│ ├── clear_screen.py               # Function to clear the console screen
+│ ├── daily_reset_withdrawals.py    # Function to reset daily withdrawals
+│ ├── date_today.py                 # Function to get today's date
+│
+├── .gitignore
+├── main.py
+├── README.md
 ```
 
 ### Melhorias Futuras:
